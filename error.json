@@ -1,0 +1,20 @@
+{
+  "email-is-exist!": 409,
+  "email-or-password-is-invalid!": 422,
+  "wrong-password!": 422,
+  "google-login-failed!": 404,
+  "facebook-login-failed!": 404,
+  "token-invalid!": 401,
+  "unauthorized!": 401,
+  "user-not-found!": 404,
+  "code-not-verify!": 422,
+  "new-password-must-not-old-password!": 422,
+  "old-password-is-incorrect!": 422,
+  "email-invalid!": 422,
+  "email-verified!": 409,
+  "user-not-permission!": 403,
+  "language-not-found!": 404,
+  "email-is-invalid!": 422,
+  "server-is-busy!": 503,
+  "bad-request!": 400
+}

@@ -1,0 +1,13 @@
+version: "3.4"
+
+services:
+  app:
+    image: api-aiwow
+    container_name: api.aiwow
+    ports:
+      - "${PORT}:${PORT}"
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - ./logs:/app/logs
+    #   - ./coverage:/app/coverage
